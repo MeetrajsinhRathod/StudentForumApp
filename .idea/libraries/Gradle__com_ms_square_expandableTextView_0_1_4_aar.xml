@@ -4,6 +4,7 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10773348cdaa0ce1272626c5d2ea03b8/jetified-expandableTextView-0.1.4/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58e101e5b369131f65f4bb8c6732aedf/jetified-expandableTextView-0.1.4/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/691682a2309dffb33305f0c540e2b651/jetified-expandableTextView-0.1.4/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4295faa4fa766172f0a8c06dac2604cc/jetified-expandableTextView-0.1.4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10773348cdaa0ce1272626c5d2ea03b8/jetified-expandableTextView-0.1.4/jars/classes.jar!/" />
@@ -15,11 +16,16 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/691682a2309dffb33305f0c540e2b651/jetified-expandableTextView-0.1.4/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/691682a2309dffb33305f0c540e2b651/jetified-expandableTextView-0.1.4/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/691682a2309dffb33305f0c540e2b651/jetified-expandableTextView-0.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4295faa4fa766172f0a8c06dac2604cc/jetified-expandableTextView-0.1.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4295faa4fa766172f0a8c06dac2604cc/jetified-expandableTextView-0.1.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4295faa4fa766172f0a8c06dac2604cc/jetified-expandableTextView-0.1.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ms-square/expandableTextView/0.1.4/5c5dc009a45fbd783411e5a25519b66235c73432/expandableTextView-0.1.4-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ms-square/expandableTextView/0.1.4/5c5dc009a45fbd783411e5a25519b66235c73432/expandableTextView-0.1.4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ms-square/expandableTextView/0.1.4/ef3493271430b98fc4c8f206adbde6354b185b0/expandableTextView-0.1.4-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ms-square/expandableTextView/0.1.4/ef3493271430b98fc4c8f206adbde6354b185b0/expandableTextView-0.1.4-sources.jar!/" />
     </SOURCES>
   </library>

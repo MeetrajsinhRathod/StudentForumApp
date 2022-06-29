@@ -5,8 +5,10 @@
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/15dc6cd18abb01f205622cd9237f48b7f5bb0c2f/kryo-serializers-0.40-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/15dc6cd18abb01f205622cd9237f48b7f5bb0c2f/kryo-serializers-0.40-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/e93b8fd65a7f559ecdd1ff1527b3c2c86ba043e8/kryo-serializers-0.40-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/e93b8fd65a7f559ecdd1ff1527b3c2c86ba043e8/kryo-serializers-0.40-sources.jar!/" />
     </SOURCES>
   </library>

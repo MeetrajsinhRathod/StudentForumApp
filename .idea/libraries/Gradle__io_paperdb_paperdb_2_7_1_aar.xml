@@ -8,8 +8,10 @@
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.paperdb/paperdb/2.7.1/4803adae053e755c540bcef061b0d52268f10dcd/paperdb-2.7.1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.paperdb/paperdb/2.7.1/4803adae053e755c540bcef061b0d52268f10dcd/paperdb-2.7.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.paperdb/paperdb/2.7.1/4e699be2dd3f805959884b48610bbff8507db7a0/paperdb-2.7.1-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.paperdb/paperdb/2.7.1/4e699be2dd3f805959884b48610bbff8507db7a0/paperdb-2.7.1-sources.jar!/" />
     </SOURCES>
   </library>
