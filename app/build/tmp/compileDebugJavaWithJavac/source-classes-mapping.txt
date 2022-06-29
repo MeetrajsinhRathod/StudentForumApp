@@ -1,0 +1,28 @@
+com/example/studentforum/RegistrationActivity.java
+ com.example.studentforum.RegistrationActivity
+ com.example.studentforum.RegistrationActivity$1
+ com.example.studentforum.RegistrationActivity$2
+ com.example.studentforum.RegistrationActivity$2$1
+ com.example.studentforum.RegistrationActivity$2$1$1
+ com.example.studentforum.RegistrationActivity$2$1$2
+ com.example.studentforum.RegistrationActivity$2$1$2$1
+ com.example.studentforum.RegistrationActivity$2$1$2$1$1
+com/example/studentforum/MainActivity.java
+ com.example.studentforum.MainActivity
+ com.example.studentforum.MainActivity$1
+ com.example.studentforum.MainActivity$2
+com/example/studentforum/myQuestions.java
+ com.example.studentforum.myQuestions
+com/example/studentforum/BuildConfig.java
+ com.example.studentforum.BuildConfig
+com/example/studentforum/ui/main/PageViewModel.java
+ com.example.studentforum.ui.main.PageViewModel
+ com.example.studentforum.ui.main.PageViewModel$1
+com/example/studentforum/homeActivity.java
+ com.example.studentforum.homeActivity
+com/example/studentforum/LoginActivity.java
+ com.example.studentforum.LoginActivity
+ com.example.studentforum.LoginActivity$1
+ com.example.studentforum.LoginActivity$1$1
+com/example/studentforum/Prevalent.java
+ com.example.studentforum.Prevalent

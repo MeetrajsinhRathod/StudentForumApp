@@ -1,0 +1,197 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.studentforum"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.5.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/10f1dd7a0682f4082e82c8f54bc7f6db/jetified-firebase-database-19.5.0/AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.5.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/10f1dd7a0682f4082e82c8f54bc7f6db/jetified-firebase-database-19.5.0/AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:19.5.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/10f1dd7a0682f4082e82c8f54bc7f6db/jetified-firebase-database-19.5.0/AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.5.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/10f1dd7a0682f4082e82c8f54bc7f6db/jetified-firebase-database-19.5.0/AndroidManifest.xml:26:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/f6f63a518aff53d5c8465500c029852b/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/f6f63a518aff53d5c8465500c029852b/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+17
+18    <application
+18-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:5:5-23:19
+19        android:allowBackup="true"
+19-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/555d9cf7d0b54a105f37cfdf76be1e6c/core-1.3.1/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:11:9-40
+28        <activity android:name="com.example.studentforum.myQuestions" />
+28-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:12:9-49
+28-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:12:19-46
+29        <activity android:name="com.example.studentforum.homeActivity" />
+29-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:13:9-50
+29-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:13:19-47
+30        <activity android:name="com.example.studentforum.LoginActivity" />
+30-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:14:9-51
+30-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:14:19-48
+31        <activity android:name="com.example.studentforum.RegistrationActivity" />
+31-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:15:9-58
+31-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:15:19-55
+32        <activity android:name="com.example.studentforum.MainActivity" >
+32-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:16:9-22:20
+32-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:16:19-47
+33            <intent-filter>
+33-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:17:13-21:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:18:17-69
+34-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:18:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:20:17-77
+36-->/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/src/main/AndroidManifest.xml:20:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:24:9-31:50
+40            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+40-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:25:13-85
+41            android:excludeFromRecents="true"
+41-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:26:13-46
+42            android:exported="true"
+42-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:27:13-36
+43            android:launchMode="singleTask"
+43-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:28:13-44
+44            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+44-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:29:13-102
+45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+45-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:30:13-72
+46
+47        <service
+47-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:33:9-39:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:34:13-84
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:19.3.1] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/938e7fe727fbd9e4bba9cdbfe1172987/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:35:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:36:13-38:85
+52                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+52-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:37:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-auth:19.4.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/95e0ae5c5fbc15beda9a4f66effaf5d7/jetified-firebase-auth-19.4.0/AndroidManifest.xml:38:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-database:19.5.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/10f1dd7a0682f4082e82c8f54bc7f6db/jetified-firebase-database-19.5.0/AndroidManifest.xml:32:13-34:85
+55                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+55-->[com.google.firebase:firebase-database:19.5.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/10f1dd7a0682f4082e82c8f54bc7f6db/jetified-firebase-database-19.5.0/AndroidManifest.xml:33:17-109
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-database:19.5.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/10f1dd7a0682f4082e82c8f54bc7f6db/jetified-firebase-database-19.5.0/AndroidManifest.xml:34:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-storage:19.2.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/b0cb39f5c68a2189e8f9a919365b6633/jetified-firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+58                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+58-->[com.google.firebase:firebase-storage:19.2.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/b0cb39f5c68a2189e8f9a919365b6633/jetified-firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-storage:19.2.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/b0cb39f5c68a2189e8f9a919365b6633/jetified-firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+60            <meta-data
+60-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/f6f63a518aff53d5c8465500c029852b/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+61                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+61-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/f6f63a518aff53d5c8465500c029852b/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/f6f63a518aff53d5c8465500c029852b/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-installations:16.3.2] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/c7ecaeb99a0393f6843de579b2cc72a4/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+64                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+64-->[com.google.firebase:firebase-installations:16.3.2] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/c7ecaeb99a0393f6843de579b2cc72a4/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-installations:16.3.2] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/c7ecaeb99a0393f6843de579b2cc72a4/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+66        </service>
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.1.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/2f3d7637012b5e6485bf0f3c490202d6/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.1.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/2f3d7637012b5e6485bf0f3c490202d6/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.1.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/2f3d7637012b5e6485bf0f3c490202d6/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.1.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/2f3d7637012b5e6485bf0f3c490202d6/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+72
+73        <provider
+73-->[com.google.firebase:firebase-common:19.3.1] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/938e7fe727fbd9e4bba9cdbfe1172987/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+74            android:name="com.google.firebase.provider.FirebaseInitProvider"
+74-->[com.google.firebase:firebase-common:19.3.1] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/938e7fe727fbd9e4bba9cdbfe1172987/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+75            android:authorities="com.example.studentforum.firebaseinitprovider"
+75-->[com.google.firebase:firebase-common:19.3.1] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/938e7fe727fbd9e4bba9cdbfe1172987/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:19.3.1] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/938e7fe727fbd9e4bba9cdbfe1172987/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+77            android:exported="false"
+77-->[com.google.firebase:firebase-common:19.3.1] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/938e7fe727fbd9e4bba9cdbfe1172987/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+78            android:initOrder="100" />
+78-->[com.google.firebase:firebase-common:19.3.1] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/938e7fe727fbd9e4bba9cdbfe1172987/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+79
+80        <receiver
+80-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+81            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+81-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+82            android:enabled="true"
+82-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+83            android:exported="false" >
+83-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+84        </receiver>
+85
+86        <service
+86-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+87            android:name="com.google.android.gms.measurement.AppMeasurementService"
+87-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+88            android:enabled="true"
+88-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+89            android:exported="false" />
+89-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+90        <service
+90-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+91            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+91-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+92            android:enabled="true"
+92-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+94            android:permission="android.permission.BIND_JOB_SERVICE" />
+94-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/d1ee1dc67187042f4b243e5b96e9b60d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+95
+96        <meta-data
+96-->[com.google.android.gms:play-services-basement:17.0.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/b28e711f1dbd181c50d923ef49395d96/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+97            android:name="com.google.android.gms.version"
+97-->[com.google.android.gms:play-services-basement:17.0.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/b28e711f1dbd181c50d923ef49395d96/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+98            android:value="@integer/google_play_services_version" />
+98-->[com.google.android.gms:play-services-basement:17.0.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/b28e711f1dbd181c50d923ef49395d96/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+99
+100        <provider
+100-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/eacbb17ddec3b4445a1c5a98ae21d18e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+101            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+101-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/eacbb17ddec3b4445a1c5a98ae21d18e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+102            android:authorities="com.example.studentforum.lifecycle-process"
+102-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/eacbb17ddec3b4445a1c5a98ae21d18e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+103            android:exported="false"
+103-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/eacbb17ddec3b4445a1c5a98ae21d18e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+104            android:multiprocess="true" />
+104-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/meetrajsinhrathod/.gradle/caches/transforms-2/files-2.1/eacbb17ddec3b4445a1c5a98ae21d18e/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+105    </application>
+106
+107</manifest>

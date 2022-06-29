@@ -1,0 +1,4 @@
+#Fri Jul 30 23:56:39 IST 2021
+base.0=/Users/meetrajsinhrathod/Documents/AndroidStudioProjects/studentforum2/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

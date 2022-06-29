@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "279449684532",
+    "firebase_url": "https://studentforum-9938b.firebaseio.com",
+    "project_id": "studentforum-9938b",
+    "storage_bucket": "studentforum-9938b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279449684532:android:84e126dbd66b8b01b59861",
+        "android_client_info": {
+          "package_name": "com.example.studentforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279449684532-ubv0bv7nbucp1dp0a0oscctu9hc42i3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studentforum",
+            "certificate_hash": "7334f77df8f099edb2fc4e7bc95854624b71d221"
+          }
+        },
+        {
+          "client_id": "279449684532-fpn7r4ahjc2mjjn6holsml269vts553a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-DG--Qnf05fLK37d0XclcOAKDVIUrx44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279449684532-fpn7r4ahjc2mjjn6holsml269vts553a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up to continue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="175dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/profile_image" />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username"
+        android:layout_margin="10dp"
+        android:textColor="#03A9F4"/>
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter full name"
+        android:layout_margin="10dp"
+        android:textColor="#03A9F4"/>
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:layout_margin="10dp"
+        android:textColor="#03A9F4"/>
+    <EditText
+        android:id="@+id/regPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:layout_margin="10dp"
+        android:textColor="#03A9F4"
+        android:inputType="textPassword"/>
+    <CheckBox
+        android:id="@+id/rememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/Registerbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/regPageQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:onClick="gotoLoginpage"
+        android:text="Already have an account? Click here to login"
+        android:textColor="#03A9F4"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
